@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>De La Salle University SHS</title>
+        
+        <style type="text/css">
+        
+            body{
+                font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+                margin: 0;
+            }
+        /*Style for Header*/
+            .header {
+                width: 100%;
+                height: 50px;
+                position: fixed;
+                top: 0px;
+                background-color:  rgb(2, 50, 3);
+                color: white;
+                z-index: 10;
+            }
+            
+            .headercontentcontainer {
+                min-width: 300px;
+                max-width: 900px;
+                margin: auto;
+            }
+            
+            .univlogo {
+                font-size: 25px;
+                width: auto;
+                display: inline
+            }
+            
+            .univlogo img {
+                float: left;
+                height: 30px;
+                margin: 9px 10px 0px 0px;
+            }
+            
+            .links {
+                display: inline-block;
+                width: auto;
+                font-weight: lighter;
+            }
+            
+            .links ul li {
+                display: inline-block;
+                padding: 0px 4px 0px 4px;
+            }
+            
+            .links ul li a {
+                text-decoration: none;
+                color: white;
+            }
+            
+            .links ul li a:hover {
+                border-bottom-style: solid;
+                border-bottom-color: white;
+                border-bottom-width: 1px;
+                color: white;
+            }
+            
+        /*Style for Banner*/
+            .banner {
+                width: 100%;
+                height: 100%;
+                margin: 50px auto 0px auto;
+                background-color: aliceblue;
+                background-image: url(dlsupic.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                vertical-align: middle;
+                /*display: flex;
+                justify-content: center;
+                align-items: center; */
+            }
+            
+            .bannercontent {
+                position: absolute;
+                top: 80px;
+                left: 10px;
+                width: 700px;
+                color: white;
+            }
+            
+            .h1banner {
+                font-size: 50px;
+                font-weight: bold;
+            }
+            
+            .h2banner {
+                font-size: 30px;
+                font-weight: lighter;
+            }
+            
+            .h3banner {
+                font-size: 20px;
+                font-style: italic;
+                font-weight: 100;
+            }
+        
+        </style>
+    </head>
+    <body>
+        
+        <div class = "header">
+            <div class = "headercontentcontainer">
+                <div class = "univlogo"><img src = "dlsulogovector.png">De La Salle Manila</div>
+                <div class = "links">
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a href = "stem.html">STEM</a></li>
+                        <li><a href = "abm.html">ABM</a></li>
+                        <li><a href = "humms.html">HUMMS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <section class = "banner">
+            <div class = "bannercontent">
+                <center>
+                <span class = "h1banner">De La Salle University</span><br>
+                <span class = "h2banner">Senior High School Program</span><br>
+                <span class = "h3banner">Your Future is Here.</span><br>
+                </center>
+            </div>
+        </section>
+        
+    </body>
+</html>
